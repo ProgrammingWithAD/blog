@@ -1,0 +1,47 @@
+table{border-spacing:0;border-collapse:collapse}
+.table{border-collapse:collapse}
+.table td,.table th{background-color:#fff}
+table td{text-align:left;padding:2px 5px!important;border:1px solid #ddd;font-size:13px}
+table th{text-align:left;padding:2px 5px!important;border:1px solid #ddd;font-size:14px;}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body{margin:0;padding:0;width:100%;height:auto;float:left;font-family:Arial;color:#000}
+.mainautot{margin:0 auto;padding:0;height:auto;width:100%}
+.mainwith{margin:0;padding:5px;height:auto;width:100%;float:left;border:1px solid #000}
+.top{margin:0;padding:0;height:auto;width:100%;float:left}
+.topcell_left{margin:0;padding:0;height:auto;width:50%;float:left;text-align:left;font-size:14px}
+.heading{margin:0;padding:0;height:auto;width:100%;float:left}
+.firm-name-h{margin:0;width:100%;padding:0;font-weight:700;float:left;height:auto;text-align:center;vertical-align:middle;font-size:22px;line-height:30px;text-decoration:underline}
+.firm-name-h span{margin:0}
+.addres-firm{margin:7px 0 0 0;padding:0;float:left;height:auto;text-align:center;vertical-align:middle;font-size:14px;width:100%}
+.email-firm{margin:3px 0 0 0;padding:0;float:left;height:auto;text-align:center;vertical-align:middle;font-size:14px;width:100%}
+.contact-frim{margin:3px 0 0 0;padding:0;float:left;height:auto;text-align:center;vertical-align:middle;font-size:14px;width:100%}
+.leftlogoheading{margin:0;padding:0;height:110px;width:20%;float:left}
+.righttextheading{margin:0;padding:0;width:65%;float:left}
+.slipno{margin:0;padding:15px 0 4px 0;height:auto;width:100%;float:left;border-bottom:2px solid #000}
+.slipno_left{margin:0;padding:0;height:auto;width:31%;float:left;text-align:left;font-size:14px}
+.slipno_middle{margin:0;padding:0;height:auto;width:45%;float:left;text-align:center}
+.slipno_right{margin:0;padding:0;height:auto;width:24%;float:left;text-align:right;font-size:14px}
+.studentdetails{margin:4px 0 0 0;padding:0;height:auto;width:100%;float:left}
+.pay_particular{margin:5px 0 0 0;padding:0;height:auto;width:100%;float:left}
+.td2{text-align:right;padding:0 3px 0 0}
+.td3{text-align:left;padding:0 0 0 5px}
+.footer_auth_sig{margin:30px 0 0 0;padding:0;height:auto;width:100%;float:left;text-align:left}
+.student_left-p-info{margin:3px 0 3px 0;padding:0;height:auto;width:33.3%;float:left;font-size:14px}
+.student_left-p-info p{margin:0;padding:0;height:auto;width:35%;float:left;font-weight:600}
+.student_left-p-info i{width:10px;float:left;font-weight:600;font-style:inherit}
+.student_left-p-info span{margin:0;padding:0;height:auto;width:60%;float:left;font-weight:500}
+.footer-ttl-div{margin:2px 0 0 0;padding:5px 0 0 0;width:100%;float:left;}
+.footer-ttl-lft-div{margin:0;padding:0;width:75%;float:left}
+.footer-ttl-lft-p-dv{margin:0;padding:4px 0 4px 0;width:100%;float:left;font-size:13px;font-weight:500}
+.footer-ttl-lft-p-dv p{margin:0;padding:0;width:18%;float:left}
+.footer-ttl-lft-p-dv i{width:10px;float:left;font-weight:600;font-style:inherit}
+.footer-ttl-lft-p-dv span{margin:0;padding:0;width:70%;float:left}
+.footer-ttl-rght-div{margin:0;padding:0;width:25%;float:left}
+.footer-ttl-rght-p-dv{margin:3px 0 3px 0;padding:0;width:80%;float:right;text-align:right;font-size:13px;font-weight:600}
+.footer-ttl-rght-p-dv p{margin:0;padding:0;width:35px;float:left}
+.footer-ttl-rght-p-dv i{margin:0;padding:0 7px 0 0;width:12px;float:left;font-weight:700;font-style:inherit}
+.footer-ttl-rght-p-dv span{margin:0;padding:0;width:68%;float:left}
+.watermarklogos{width:40%;position:absolute;left:30%;right:30%}
+.certificate-wpr1{margin:0;padding:0;width:100%;float:left;position:relative;align-items:center;display:flex}
+.certificate-wpr2{margin:0;padding:0 0;width:100%;float:left;overflow:hidden;position:relative;background:rgb(255 255 255 / 90%)}
