@@ -1,18 +1,19 @@
 <footer class="footer">
   <div class="container-fluid">
-    <?php /*echo '<h5 style="background-color: #3df110;color: #000;">&nbsp; Next =>
+    <?php /* ?>
+    <h5 style="background-color: #3df110;color: #000;">&nbsp; Next =>
         <b> http://192.168.29.69/trip-cart-package/master-list-activity-rate</b> <small>->Edit</small>
-    </h5>'; ?>
-
-    <?php echo '<h5 style=" background-color: #024d12;color: #fff;">&nbsp; Next =>
+    </h5>
+    <h5 style="background-color: #024d12;color: #fff;">&nbsp; Next =>
         <b> http://192.168.29.69/trip-cart-package/voucher-hotel-list</b> <small>->Filter by Hotel</small><br>
-      &nbsp;  <b> http://192.168.29.69/trip-cart-package/voucher-activity-list</b> <small>->Filter by Activity & vendor</small><br>
-      &nbsp;  <b> http://192.168.29.69/trip-cart-package/voucher-package-list</b> <small>->Filter by vendor</small><br>
-      &nbsp;  <b> http://192.168.29.69/trip-cart-package/voucher-flight-list</b> <small>->Filter by vendor & Details(SelectBox)</small>
-    </h5>';*/ ?>
+        &nbsp; <b> http://192.168.29.69/trip-cart-package/voucher-activity-list</b> <small>->Filter by Activity & vendor</small><br>
+        &nbsp; <b> http://192.168.29.69/trip-cart-package/voucher-package-list</b> <small>->Filter by vendor</small><br>
+        &nbsp; <b> http://192.168.29.69/trip-cart-package/voucher-flight-list</b> <small>->Filter by vendor & Details(SelectBox)</small>
+    </h5>
+    <?php */ ?>
 
     <div class="row">
-      <div class="col-sm-6"> <?= date('Y') ?> © SIMPLE BLOG </div>
+      <div class="col-sm-6"><?= date('Y') ?> © SIMPLE BLOG </div>
       <div class="col-sm-6">
         <div class="text-sm-end d-none d-sm-block">
           <a href="https://webihqsolutions.in/" target="_blank" class="text-secondary font-weight-bold">APPCODES</a>
@@ -23,7 +24,6 @@
 </footer>
 
 <!-- end main content-->
-
 
 <!-- END layout-wrapper -->
 
@@ -39,7 +39,7 @@
 <script src="assets/libs/pace-js/pace.min.js"></script>
 <script src="assets/js/app.js?v=<?= $script_ver ?>"></script>
 <script src="assets/dhScript.js?v=<?= $script_ver ?>"></script>
-
+<script src="assets/js/moment.js"></script>
 
 <script src="assets/libs/select2_4.1/select2.min.js?v=<?= $script_ver ?>"></script>
 
@@ -73,4 +73,15 @@
   $(document).on('select2:open', () => {
     document.querySelector('.select2-search__field').focus();
   });
+</script>
+<script src="assets/js/main.js"></script>
+<!-- Custom Js Required -->
+<script src="assets/dhScript.js?v=1"></script>
+
+<script type="text/javascript">
+  function change_captcha() {
+    var image = '<img src="captcha_image.php?' + new Date().getTime() + '" />';
+    $(".captcha-image").html(image);
+    $("#captcha").val('');
+  }
 </script>

@@ -88,7 +88,7 @@ $_SESSION['captcha'] = generateCaptcha();
 
 <head>
     <meta charset="utf-8" />
-    <title><?= $thisPageTitle ?> | <?= $thisSoftware; ?></title>
+    <title>Sample Blog | Register</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- App favicon -->
     <link rel="shortcut icon" href="images/favicon.png">
@@ -190,37 +190,4 @@ $_SESSION['captcha'] = generateCaptcha();
         </div>
     </div>
 
-
-
-    <footer class="main-footer">
-        <div class="row">
-            <div class="col">© <?php echo $company['name'] ?></div>
-            <div class="col text-right"><a href="https://webihqsolutions.in/" target="_blank" class="text-white font-weight-bold">WEBI-HQ Solutions</a></div>
-        </div>
-    </footer>
-
-    <!-- Required jQuery first, then Bootstrap Bundle JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/moment.js"></script>
-    <!-- Notification -->
-    <!-- <script src="https://nfcoperations.in/js/notify.js"></script> -->
-    <!-- Parsley -->
-    <!-- <script src="https://nfcoperations.in/js/parsley.js"></script> -->
-    <!-- Main Js Required -->
-    <script src="assets/js/main.js"></script>
-    <!-- Custom Js Required -->
-    <script src="assets/dhScript.js?v=1"></script>
-
-    <script type="text/javascript">
-        function change_captcha() {
-            var image = '<img src="captcha_image.php?' + new Date().getTime() + '" />';
-            $(".captcha-image").html(image);
-            $("#captcha").val('');
-        }
-    </script>
-
-
-</body>
-
-</html>
+    <?php include("includes/footer.php"); ?>

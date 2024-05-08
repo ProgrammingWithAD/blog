@@ -11,35 +11,6 @@ $user_id = $_SESSION['login']['user_id'];
 <head>
   <?php include_once 'includes/style.php' ?>
   <style type="text/css">
-    .main-content::before {
-      content: "";
-
-      <?php
-      /*
-         https://www.freepik.com/premium-vector/concept-illustration-buying-car-credit-vector-illustration_135114215.htm#fromView=search&term=car+rental&track=ais&regularType=vector&page=3&position=17&uuid=ee660047-ce9c-4a15-a1e6-791edbdea972
-         https://www.freepik.com/free-vector/businessman-with-smartphone-rents-car-street-via-carsharing-service-carsharing-service-short-periods-rent-best-taxi-alternative-concept-bright-vibrant-violet-isolated-illustration_10782844.htm#fromView=search&term=car+rental&track=ais&regularType=vector&page=1&position=36&uuid=ee660047-ce9c-4a15-a1e6-791edbdea972
-         https://www.freepik.com/free-vector/car-rental-concept-illustration_26234498.htm#fromView=search&term=car+rental&track=ais&regularType=vector&page=1&position=0&uuid=ee660047-ce9c-4a15-a1e6-791edbdea972
-         https://www.freepik.com/free-vector/car-sharing-concept-illustration_69241270.htm#fromView=search&term=car+rental+software&track=ais&regularType=vector&page=3&position=4&uuid=c9575aca-0a41-42f7-a8e0-9ac99a5d7736
-     */
-      ?>background-image: linear-gradient(rgb(0 0 0 / 66%), rgb(0 0 0 / 34%)), url(car_concept.jpg);
-      /*background-image: url('https://www.bcdtravel.com/rennies/wp-content/uploads/sites/198/2023/01/The-future-of-car-rental.jpg');*/
-      background-size: cover;
-      position: absolute;
-      top: 0px;
-      right: 0px;
-      bottom: 0px;
-      left: 0px;
-      opacity: 0.2;
-    }
-
-    /*.main-content{
-            background-image: url('https://www.bcdtravel.com/rennies/wp-content/uploads/sites/198/2023/01/The-future-of-car-rental.jpg');
-            min-height: 80vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.2;
-        }*/
     .card-link {
       text-decoration: none;
     }
